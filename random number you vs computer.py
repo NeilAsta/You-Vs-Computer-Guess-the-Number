@@ -35,9 +35,9 @@ print("Do you want to play against the computer playing algorythmicly? yes or no
 answer = input()
 answer = answer.lower()
 
-if answer == 'no' :
+if answer == 'no' or 'n' or 'nah' or 'nope':
     print ("have a good day ")
-elif answer == 'yes':
+elif answer == 'yes' or 'y' or 'yep' or 'sure':
     print('let\'s go then!')
 #computer    
     comp_num = int(random.randint(1,10))
